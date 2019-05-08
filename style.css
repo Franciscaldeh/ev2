@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	background: grey;
+}
+
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:400;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	font-weight:400;
+}
+
 #menu{
 	position: fixed;
 	bottom:2rem;
 	right:2.5rem;
+}
+
+.bg-verde{
+	background: rgba(205, 220, 57, 1.00);
 }
